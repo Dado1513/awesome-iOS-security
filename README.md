@@ -74,9 +74,17 @@ sudo ldconfig
 
 
 **nowsecure**
+
+- [r2frida](https://github.com/nowsecure/r2frida) Radare2 and Frida better together.
+
+
+
 - [node-applesing](https://github.com/nowsecure/node-applesign) NodeJS module and commandline utility for re-signing iOS applications (IPA files).
 
     ```npm install```
+
+- [ipa-extract-info](https://github.com/nowsecure/ipa-extract-info) Extract the Info.plist from an IPA, in node.js and the browser!
+
 
 
 **ioscontrol**
@@ -110,6 +118,9 @@ sudo ldconfig
 - [frida-trace](https://github.com/nowsecure/frida-trace) Trace APIs declaratively through Frida.
 
 - [frida-cycript](https://github.com/nowsecure/frida-cycript) This is a fork of [Cycript] 1 in which we replaced its runtime with a brand new runtime called [Mjølner] 3 powered by [Frida] 4. This enables frida-cycript to run on all the platforms and architectures maintained by [frida-core] 8.
+
+- [frida-screenshot](https://github.com/nowsecure/frida-screenshot) Grab screenshots using Frida.
+
 
 
 --- 
