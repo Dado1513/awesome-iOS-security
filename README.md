@@ -6,6 +6,12 @@
 
 ### Utilities
 
+- [itms-services](https://www.npmjs.com/package/itms-services) Getting the IPA File from an OTA Distribution Link
+```shell
+npm install -g itms-services
+itms-services -u "itms-services://?action=download-manifest&url=https://s3-ap-southeast-1.amazonaws.com/test-uat/manifest.plist" -o - > out.ipa
+```
+
 - [frida-ios-dump](https://github.com/AloneMonkey/frida-ios-dump) Pull a decrypted IPA from a jailbroken device
 
 - [checkra1n](https://github.com/checkra1n)
@@ -51,21 +57,15 @@ sudo ldconfig
 ```
 - [usbmuxd](https://github.com/libimobiledevice/usbmuxd) A socket daemon to multiplex connections from and to iOS devices.
 
-
 - [libplist](https://github.com/libimobiledevice/libplist) A small portable C library to handle Apple Property List files in binary or XML format.
 
 - [libusbmuxd](https://github.com/libimobiledevice/libusbmuxd) A client library for applications to handle usbmux protocol connections with iOS devices.
 
 - [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) A library to communicate with services on iOS devices using native protocols.
 
-
-
 - [ideviceinstaller](https://github.com/libimobiledevice/ideviceinstaller) A command-line application to manage apps and app archives on iOS devices.
 
-
 - [libideviceactivation](https://github.com/libimobiledevice/libideviceactivation) A library to manage the activation process of Apple iOS devices.
-
-
 
 - [idevicerestore](https://github.com/libimobiledevice/idevicerestore) A command-line application to restore firmware files to iOS devices.
 
@@ -77,15 +77,11 @@ sudo ldconfig
 
 - [r2frida](https://github.com/nowsecure/r2frida) Radare2 and Frida better together.
 
-
-
 - [node-applesing](https://github.com/nowsecure/node-applesign) NodeJS module and commandline utility for re-signing iOS applications (IPA files).
 
     ```npm install```
 
 - [ipa-extract-info](https://github.com/nowsecure/ipa-extract-info) Extract the Info.plist from an IPA, in node.js and the browser!
-
-
 
 **ioscontrol**
 - [ios-deploy](https://github.com/ios-control/ios-deploy) Install and debug iOS apps from the command line. Designed to work on un-jailbroken devices (Requirement - MacOs)
@@ -98,11 +94,16 @@ sudo ldconfig
 ### Static Analysis
 
 - [Ghidra](https://ghidra-sre.org/)
+	- [Ghidra-script](https://github.com/ghidraninja/ghidra_scripts) 
 - [Cutter](https://cutter.re/)
 - [Radare2](https://rada.re/n/)
 
 ---
 ### Dynamic Analysis
+
+- [introspy-iOS](https://github.com/iSECPartners/Introspy-iOS) Blackbox tool to help understand what an iOS application is doing at runtime and assist in the identification of potential security issues.
+
+
 
 - [objection](https://github.com/sensepost/objection) objection is a runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak.
 
