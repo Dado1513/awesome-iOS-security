@@ -97,9 +97,9 @@ sudo ldconfig
 ---
 ### Static Analysis
 
-- [Ghidra]()
-- [Cutter]()
-- [Radare2]()
+- [Ghidra](https://ghidra-sre.org/)
+- [Cutter](https://cutter.re/)
+- [Radare2](https://rada.re/n/)
 
 ---
 ### Dynamic Analysis
