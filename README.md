@@ -1,6 +1,5 @@
 # iOS-awesome-security-tools
 > List of all interesting iOS tools for security purpose
-
 ---
 
 
@@ -12,13 +11,29 @@ npm install -g itms-services
 itms-services -u "itms-services://?action=download-manifest&url=https://s3-ap-southeast-1.amazonaws.com/test-uat/manifest.plist" -o - > out.ipa
 ```
 
+- [ipainstaller](https://github.com/autopear/ipainstaller). The IPA can also be directly installed on the iOS device via the command line with ipainstaller
+
+- [Keychain-Dumper](https://github.com/ptoomey3/Keychain-Dumper)
+
 - [frida-ios-dump](https://github.com/AloneMonkey/frida-ios-dump) Pull a decrypted IPA from a jailbroken device
 
 - [checkra1n](https://github.com/checkra1n)
 
+- [unc0ver.dev](https://unc0ver.dev/)
+
 - [idb](https://github.com/dmayer/idb) 
 
 - [imobax](https://github.com/Siguza/imobax). The iOS Mobile Backup Xtractor.
+
+- [Clutch](https://github.com/KJCracks/Clutch). Clutch is a high-speed iOS decryption tool. Clutch supports the iPhone, iPod Touch, and iPad as well as all iOS version, architecture types, and most binaries. Clutch is meant only for educational purposes and security research.
+
+- [plistutil]() 
+```shell
+$ apt install libplist-utils
+$ plistutil -i Info.plist -o Info_xml.plist
+```
+
+
 
 
 **[libimobiledevice](https://libimobiledevice.org/)**
@@ -37,7 +52,9 @@ sudo apt-get install \
     libxml2-dev \
 	libcurl4-openssl-dev \
     zlib1g-dev \
-    libfuse-dev
+    libfuse-dev \
+	libreadline-dev \
+	libusb-1.0-0-dev \
 ```
 
 ```shell
@@ -71,6 +88,11 @@ sudo ldconfig
 
 - [ifuse](https://github.com/libimobiledevice/ifuse) A fuse filesystem implementation to access the contents of iOS devices.
 
+- [libirecovery](https://github.com/libimobiledevice/libirecovery) The libirecovery library allows communication with iBoot/iBSS of iOS devices via USB.
+
+- [idevicerestore](https://github.com/libimobiledevice/idevicerestore) A command-line application to restore firmware files to iOS devices.
+
+
 
 
 **nowsecure**
@@ -88,8 +110,6 @@ sudo ldconfig
 
 
 
-
-
 ---
 ### Static Analysis
 
@@ -103,13 +123,16 @@ sudo ldconfig
 
 - [introspy-iOS](https://github.com/iSECPartners/Introspy-iOS) Blackbox tool to help understand what an iOS application is doing at runtime and assist in the identification of potential security issues.
 
-
+-[iOS-Debug-Hacks](https://github.com/aozhimin/iOS-Debug-Hacks)
 
 - [objection](https://github.com/sensepost/objection) objection is a runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak.
 
 - [Grapefruit](https://github.com/ChiChou/grapefruit) Grapefruit: Runtime Application Instruments for iOS.
 
 - [Frida-Mobile-Scripts](https://github.com/m0bilesecurity/Frida-Mobile-Scripts) Collection of useful FRIDA Mobile Scripts
+
+- [frida-ios-hook](https://github.com/noobpk/frida-ios-hook). A script that helps you trace classes, functions, and modify the return values of methods on iOS platform.
+
 
 
 
@@ -127,10 +150,26 @@ sudo ldconfig
 --- 
 ### Other
 - [RMS-Runtime-Mobile-Security](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security)
+
 - [MobSf](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
 
+---
+### Cydia
+- [AppSync](https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified). AppSync is a tweak that patches installd, allowing the installation of fake-signed IPA packages
+
+- [Cydia Impactor](http://www.cydiaimpactor.com/). This tool was originally created to
+jailbreak iPhones, but has been rewritten to sign and install IPA packages to iOS devices via sideloading.
 
 
+### Resources and Tutorial
 
+- [ios-frida-objection-cheat-sheet](https://www.virtuesecurity.com/kb/ios-frida-objection-pentesting-cheat-sheet/)
+- [ios-Swift Anti-Jailbreak Bypass with Frida](https://syrion.me/blog/ios-swift-antijailbreak-bypass-frida/)
 
-
+### CTF
+- [NCC-CON-2018](https://ch1kpee.com/2018/01/08/ncc-con-2018-ios-ctf-solutions/)
+- [awesome-mobile-ctf](https://github.com/xtiankisutsa/awesome-mobile-CTF)
+- [ios-ctf](https://www.ivrodriguez.com/mobile-ctf/)
+- [Walkthrough of an iOS CTF](https://www.optiv.com/explore-optiv-insights/source-zero/walkthrough-ios-ctf)
+- [H1702 CTF](http://redgetan.cc/h1_702-ctf-reversing-ios-android-arm-writeup/)
+- [frida-ios-jailbreak-bypass](https://syrion.me/blog/ios-swift-antijailbreak-bypass-frida/)
