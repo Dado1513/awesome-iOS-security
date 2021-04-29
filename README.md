@@ -165,6 +165,9 @@ jailbreak iPhones, but has been rewritten to sign and install IPA packages to iO
 
 - [ios-frida-objection-cheat-sheet](https://www.virtuesecurity.com/kb/ios-frida-objection-pentesting-cheat-sheet/)
 - [ios-Swift Anti-Jailbreak Bypass with Frida](https://syrion.me/blog/ios-swift-antijailbreak-bypass-frida/)
+- [RE-iOS-Apps](https://github.com/ivRodriguezCA/RE-iOS-Apps)
+- [iOS-Bypass-Jailbreak](https://philkeeble.com/ios/reverse-engineering/iOS-Bypass-Jailbreak/)
+- [Post-on-iOS-RE](https://philkeeble.com/categories/#ios)
 
 ### CTF
 - [NCC-CON-2018](https://ch1kpee.com/2018/01/08/ncc-con-2018-ios-ctf-solutions/)
