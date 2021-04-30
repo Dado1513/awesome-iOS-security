@@ -176,3 +176,4 @@ jailbreak iPhones, but has been rewritten to sign and install IPA packages to iO
 - [Walkthrough of an iOS CTF](https://www.optiv.com/explore-optiv-insights/source-zero/walkthrough-ios-ctf)
 - [H1702 CTF](http://redgetan.cc/h1_702-ctf-reversing-ios-android-arm-writeup/)
 - [frida-ios-jailbreak-bypass](https://syrion.me/blog/ios-swift-antijailbreak-bypass-frida/)
+- [bypass-jailbreak-detection-ios](https://blog.attify.com/bypass-jailbreak-detection-frida-ios-applications/)
