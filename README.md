@@ -6,9 +6,10 @@
 ### Utilities
 
 - [itms-services](https://www.npmjs.com/package/itms-services) Getting the IPA File from an OTA Distribution Link
+
 ```shell
-npm install -g itms-services
-itms-services -u "itms-services://?action=download-manifest&url=https://s3-ap-southeast-1.amazonaws.com/test-uat/manifest.plist" -o - > out.ipa
+$ npm install -g itms-services
+$ itms-services -u "itms-services://?action=download-manifest&url=https://s3-ap-southeast-1.amazonaws.com/test-uat/manifest.plist" -o - > out.ipa
 ```
 
 - [ipainstaller](https://github.com/autopear/ipainstaller). The IPA can also be directly installed on the iOS device via the command line with ipainstaller
