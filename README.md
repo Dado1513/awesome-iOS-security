@@ -121,7 +121,8 @@ sudo ldconfig
 
 ---
 ### Dynamic Analysis
-
+- [Fastbot_iOS](https://github.com/bytedance/Fastbot_iOS) Fastbot is a model-based testing tool for modeling GUI transitions to discover app stability problems. It combines machine learning and reinforcement learning techniques to assist discovery in a more intelligent way.
+- 
 - [introspy-iOS](https://github.com/iSECPartners/Introspy-iOS) Blackbox tool to help understand what an iOS application is doing at runtime and assist in the identification of potential security issues.
 
 -[iOS-Debug-Hacks](https://github.com/aozhimin/iOS-Debug-Hacks)
