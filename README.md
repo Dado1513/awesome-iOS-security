@@ -1,4 +1,4 @@
-# iOS-awesome-security-tools
+# iOS awesome security tools
 > List of all interesting iOS tools for security purpose
 ---
 
