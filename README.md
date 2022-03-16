@@ -125,7 +125,7 @@ sudo ldconfig
 - 
 - [introspy-iOS](https://github.com/iSECPartners/Introspy-iOS) Blackbox tool to help understand what an iOS application is doing at runtime and assist in the identification of potential security issues.
 
--[iOS-Debug-Hacks](https://github.com/aozhimin/iOS-Debug-Hacks)
+- [iOS-Debug-Hacks](https://github.com/aozhimin/iOS-Debug-Hacks)
 
 - [objection](https://github.com/sensepost/objection) objection is a runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak.
 
