@@ -85,8 +85,6 @@ sudo ldconfig
 
 - [libideviceactivation](https://github.com/libimobiledevice/libideviceactivation) A library to manage the activation process of Apple iOS devices.
 
-- [idevicerestore](https://github.com/libimobiledevice/idevicerestore) A command-line application to restore firmware files to iOS devices.
-
 - [ifuse](https://github.com/libimobiledevice/ifuse) A fuse filesystem implementation to access the contents of iOS devices.
 
 - [libirecovery](https://github.com/libimobiledevice/libirecovery) The libirecovery library allows communication with iBoot/iBSS of iOS devices via USB.
@@ -122,7 +120,7 @@ sudo ldconfig
 ---
 ### Dynamic Analysis
 - [Fastbot_iOS](https://github.com/bytedance/Fastbot_iOS) Fastbot is a model-based testing tool for modeling GUI transitions to discover app stability problems. It combines machine learning and reinforcement learning techniques to assist discovery in a more intelligent way.
-- 
+
 - [introspy-iOS](https://github.com/iSECPartners/Introspy-iOS) Blackbox tool to help understand what an iOS application is doing at runtime and assist in the identification of potential security issues.
 
 - [iOS-Debug-Hacks](https://github.com/aozhimin/iOS-Debug-Hacks)
