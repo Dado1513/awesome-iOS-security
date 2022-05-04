@@ -25,7 +25,7 @@ $ itms-services -u "itms-services://?action=download-manifest&url=https://s3-ap-
 - [idb](https://github.com/dmayer/idb) 
 
 - [idb-facebook](https://github.com/facebook/idb/). Tool for replacing WebDriverAgent.
--
+
 - [WebDriverAgent](https://github.com/facebookarchive/WebDriverAgent). Archive.
 
 - [imobax](https://github.com/Siguza/imobax). The iOS Mobile Backup Xtractor.
