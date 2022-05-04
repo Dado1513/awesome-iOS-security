@@ -24,6 +24,10 @@ $ itms-services -u "itms-services://?action=download-manifest&url=https://s3-ap-
 
 - [idb](https://github.com/dmayer/idb) 
 
+- [idb-facebook](https://github.com/facebook/idb/). Tool for replacing WebDriverAgent.
+-
+- [WebDriverAgent](https://github.com/facebookarchive/WebDriverAgent). Archive.
+
 - [imobax](https://github.com/Siguza/imobax). The iOS Mobile Backup Xtractor.
 
 - [Clutch](https://github.com/KJCracks/Clutch). Clutch is a high-speed iOS decryption tool. Clutch supports the iPhone, iPod Touch, and iPad as well as all iOS version, architecture types, and most binaries. Clutch is meant only for educational purposes and security research.
@@ -132,6 +136,9 @@ sudo ldconfig
 - [Frida-Mobile-Scripts](https://github.com/m0bilesecurity/Frida-Mobile-Scripts) Collection of useful FRIDA Mobile Scripts
 
 - [frida-ios-hook](https://github.com/noobpk/frida-ios-hook). A script that helps you trace classes, functions, and modify the return values of methods on iOS platform.
+
+- [iOS-Tagent](https://github.com/AirtestProject/iOS-Tagent). iOS-Tagent is a project based on facebook WebDriverAgent and intend to fit Airtest Project.
+
 
 
 
