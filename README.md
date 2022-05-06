@@ -32,6 +32,10 @@ $ itms-services -u "itms-services://?action=download-manifest&url=https://s3-ap-
 
 - [Clutch](https://github.com/KJCracks/Clutch). Clutch is a high-speed iOS decryption tool. Clutch supports the iPhone, iPod Touch, and iPad as well as all iOS version, architecture types, and most binaries. Clutch is meant only for educational purposes and security research.
 
+- [ish](https://github.com/ish-app/ish). A project to get a Linux shell running on iOS, using usermode x86 emulation and syscall translation.
+
+
+
 - [plistutil]() 
 ```shell
 $ apt install libplist-utils
