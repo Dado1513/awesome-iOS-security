@@ -1,15 +1,15 @@
-# iOS awesome security tools
+# awesome iOS security tools
+
 > List of all interesting iOS tools for security purpose
 ---
-
 
 ### Utilities
 
 - [itms-services](https://www.npmjs.com/package/itms-services) Getting the IPA File from an OTA Distribution Link
 
 ```shell
-$ npm install -g itms-services
-$ itms-services -u "itms-services://?action=download-manifest&url=https://s3-ap-southeast-1.amazonaws.com/test-uat/manifest.plist" -o - > out.ipa
+npm install -g itms-services
+itms-services -u "itms-services://?action=download-manifest&url=https://s3-ap-southeast-1.amazonaws.com/test-uat/manifest.plist" -o - > out.ipa
 ```
 
 - [ipainstaller](https://github.com/autopear/ipainstaller). The IPA can also be directly installed on the iOS device via the command line with ipainstaller
@@ -22,7 +22,7 @@ $ itms-services -u "itms-services://?action=download-manifest&url=https://s3-ap-
 
 - [unc0ver.dev](https://unc0ver.dev/)
 
-- [idb](https://github.com/dmayer/idb) 
+- [idb](https://github.com/dmayer/idb)
 
 - [idb-facebook](https://github.com/facebook/idb/). Tool for replacing WebDriverAgent.
 
@@ -34,16 +34,12 @@ $ itms-services -u "itms-services://?action=download-manifest&url=https://s3-ap-
 
 - [ish](https://github.com/ish-app/ish). A project to get a Linux shell running on iOS, using usermode x86 emulation and syscall translation.
 
+- [plistutil]()
 
-
-- [plistutil]() 
 ```shell
-$ apt install libplist-utils
-$ plistutil -i Info.plist -o Info_xml.plist
+apt install libplist-utils
+plistutil -i Info.plist -o Info_xml.plist
 ```
-
-
-
 
 **[libimobiledevice](https://libimobiledevice.org/)**
 
@@ -51,29 +47,28 @@ Requirements
 
 ```shell
 sudo apt-get install \
-	build-essential \
-	checkinstall \
-	git \
-	autoconf \
-	automake \
-	libtool-bin \
+ build-essential \
+ checkinstall \
+ git \
+ autoconf \
+ automake \
+ libtool-bin \
     libzip-dev \
     libxml2-dev \
-	libcurl4-openssl-dev \
+ libcurl4-openssl-dev \
     zlib1g-dev \
     libfuse-dev \
-	libreadline-dev \
-	libusb-1.0-0-dev \
+ libreadline-dev \
+ libusb-1.0-0-dev \
 ```
 
 ```shell
 sudo apt-get install \
-	doxygen \
-	cython
+ doxygen \
+ cython
 ```
 
 All modules are installed with the  following commands (in the following order)
-
 
 ```shell
 ./autogen.sh
@@ -81,6 +76,7 @@ make
 sudo make install
 sudo ldconfig 
 ```
+
 - [usbmuxd](https://github.com/libimobiledevice/usbmuxd) A socket daemon to multiplex connections from and to iOS devices.
 
 - [libplist](https://github.com/libimobiledevice/libplist) A small portable C library to handle Apple Property List files in binary or XML format.
@@ -101,7 +97,6 @@ sudo ldconfig
 
 - [ios-app-signer](https://github.com/DanTheMan827/ios-app-signer) This is an app for OS X that can (re)sign apps and bundle them into ipa files that are ready to be installed on an iOS device.
 
-
 **nowsecure**
 
 - [r2frida](https://github.com/nowsecure/r2frida) Radare2 and Frida better together.
@@ -113,20 +108,22 @@ sudo ldconfig
 - [ipa-extract-info](https://github.com/nowsecure/ipa-extract-info) Extract the Info.plist from an IPA, in node.js and the browser!
 
 **ioscontrol**
+
 - [ios-deploy](https://github.com/ios-control/ios-deploy) Install and debug iOS apps from the command line. Designed to work on un-jailbroken devices (Requirement - MacOs)
 
-
-
 ---
+
 ### Static Analysis
 
 - [Ghidra](https://ghidra-sre.org/)
-	- [Ghidra-script](https://github.com/ghidraninja/ghidra_scripts) 
+  - [Ghidra-script](https://github.com/ghidraninja/ghidra_scripts)
 - [Cutter](https://cutter.re/)
 - [Radare2](https://rada.re/n/)
 
 ---
+
 ### Dynamic Analysis
+
 - [Fastbot_iOS](https://github.com/bytedance/Fastbot_iOS) Fastbot is a model-based testing tool for modeling GUI transitions to discover app stability problems. It combines machine learning and reinforcement learning techniques to assist discovery in a more intelligent way.
 
 - [introspy-iOS](https://github.com/iSECPartners/Introspy-iOS) Blackbox tool to help understand what an iOS application is doing at runtime and assist in the identification of potential security issues.
@@ -143,11 +140,8 @@ sudo ldconfig
 
 - [iOS-Tagent](https://github.com/AirtestProject/iOS-Tagent). iOS-Tagent is a project based on facebook WebDriverAgent and intend to fit Airtest Project.
 
-
-
-
-
 **nowsecure**
+
 - [fsmon](https://github.com/nowsecure/fsmon) FileSystem Monitor utility that runs on Linux, Android, iOS and OSX.
 
 - [frida-trace](https://github.com/nowsecure/frida-trace) Trace APIs declaratively through Frida.
@@ -156,21 +150,22 @@ sudo ldconfig
 
 - [frida-screenshot](https://github.com/nowsecure/frida-screenshot) Grab screenshots using Frida.
 
+---
 
-
---- 
 ### Other
+
 - [RMS-Runtime-Mobile-Security](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security)
 
 - [MobSf](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
 
 ---
+
 ### Cydia
+
 - [AppSync](https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified). AppSync is a tweak that patches installd, allowing the installation of fake-signed IPA packages
 
 - [Cydia Impactor](http://www.cydiaimpactor.com/). This tool was originally created to
 jailbreak iPhones, but has been rewritten to sign and install IPA packages to iOS devices via sideloading.
-
 
 ### Resources and Tutorial
 
@@ -181,6 +176,7 @@ jailbreak iPhones, but has been rewritten to sign and install IPA packages to iO
 - [Post-on-iOS-RE](https://philkeeble.com/categories/#ios)
 
 ### CTF
+
 - [NCC-CON-2018](https://ch1kpee.com/2018/01/08/ncc-con-2018-ios-ctf-solutions/)
 - [awesome-mobile-ctf](https://github.com/xtiankisutsa/awesome-mobile-CTF)
 - [ios-ctf](https://www.ivrodriguez.com/mobile-ctf/)
