@@ -1,7 +1,6 @@
 # awesome iOS security tools [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 > List of all interesting iOS tools for security purpose
----
 
 ### Utilities
 
@@ -111,7 +110,6 @@ sudo ldconfig
 
 - [ios-deploy](https://github.com/ios-control/ios-deploy) Install and debug iOS apps from the command line. Designed to work on un-jailbroken devices (Requirement - MacOs)
 
----
 
 ### Static Analysis
 
@@ -120,7 +118,6 @@ sudo ldconfig
 - [Cutter](https://cutter.re/)
 - [Radare2](https://rada.re/n/)
 
----
 
 ### Dynamic Analysis
 
@@ -152,15 +149,20 @@ sudo ldconfig
 
 ---
 
-### Other
+### Complete Framework
 
 - [RMS-Runtime-Mobile-Security](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security)
 
 - [MobSf](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
 
+
 ---
 
-### Cydia
+### Jailbreak
+
+- [checkra1n]
+
+- [palera1n]
 
 - [AppSync](https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified). AppSync is a tweak that patches installd, allowing the installation of fake-signed IPA packages
 
